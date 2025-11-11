@@ -1,6 +1,15 @@
 h1 {
-  color: blue;
+  color: yellow;
 }
-h1 span {
+
+h1 {
+  box-shadow: inset 0 0 10px #fff;
+}
+
+h1 {
   color: red;
+}
+
+h1 {
+  background: #000;
 }/*# sourceMappingURL=main.css.map */
