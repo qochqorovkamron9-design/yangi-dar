@@ -16,6 +16,27 @@
   background-color: darkblue;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.btn, .btn-w {
+  border-radius: 100px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-w {
+  background-color: #0f0;
+  color: #fff;
+}
+
 h1 {
   color: yellow;
 }
