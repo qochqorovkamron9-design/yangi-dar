@@ -1,0 +1,25 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    @include flex-center;
+}
+
+
+@mixin button-styles {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darkblue;
+    }
+}
+.button {
+    @include button-styles;
+}
